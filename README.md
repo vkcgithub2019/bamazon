@@ -25,10 +25,12 @@ SCREENSHOTS OF THE OPERATION
 
 2.  Order purchase for one item
  ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot1.png) 
+
 3.  Order purchase for 2 items
  ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot2.png) 
+
 4.  Insufficient quantity
- ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/insufficimages](/images/insufficient%20quantity%20screenshot.png) 
+ ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/insufficient%20quantity%20screenshot.png)
 
 5.  Invalid item_id
  ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/invalid%20item%20id%20entry.png) 
