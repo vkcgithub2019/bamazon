@@ -19,3 +19,22 @@ Subsequently, the database will be updated to reflect the depletion of stock.
 SCREENSHOTS OF THE OPERATION
 
 1.  Starting inventory
+![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/starting%20inventory%20screenshot.png)
+
+2.  Order purchase for one item
+![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot1.png)
+
+3.  Order purchase for 2 items
+![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot2.png)
+
+4.  Insufficient quantity
+![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/insufficient%20quantity%20screenshot.png)
+
+5.  Invalid entry
+![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/invalid%20item%20id%20entry.png)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Here is the link to my Portfolio page
+
+https://vkcgithub2019.github.io/Responsive-Portfolio/
