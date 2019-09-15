@@ -30,7 +30,7 @@ SCREENSHOTS OF THE OPERATION
 4.  Insufficient quantity
 ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/insufficient%20quantity%20screenshot.png)
 
-5.  Invalid entry
+5.  Invalid item_id
 ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/invalid%20item%20id%20entry.png)
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -38,3 +38,4 @@ SCREENSHOTS OF THE OPERATION
 Here is the link to my Portfolio page
 
 https://vkcgithub2019.github.io/Responsive-Portfolio/
+https://github.com/vkcgithub2019/Responsive-Portfolio
