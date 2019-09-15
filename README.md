@@ -20,6 +20,7 @@ SCREENSHOTS OF THE OPERATION
 
 1.  Starting inventory
 ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/starting%20inventory%20screenshot.png)
+![images](/images/starting inventory screenshot.png)
 
 2.  Order purchase for one item
 ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot1.png)
