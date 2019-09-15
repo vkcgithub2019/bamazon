@@ -23,17 +23,17 @@ SCREENSHOTS OF THE OPERATION
 ![images](/images/starting inventory screenshot.png)
 
 2.  Order purchase for one item
- ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot1.png) -->
+ ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot1.png) 
 ![images](/images/order purchase screenshot1.png)
 3.  Order purchase for 2 items
- ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot2.png) -->
+ ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/order%20purchase%20screenshot2.png) 
 ![images](/images/order purchase screenshot2.png)
 4.  Insufficient quantity
- ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/insufficient%20quantity%20screenshot.png) -->
+ ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/insufficient%20quantity%20screenshot.png) 
 ![images](/images/insufficient quantity screenshot.png)
 5.  Invalid item_id
- ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/invalid%20item%20id%20entry.png) -->
-![images](/images/invalid item id entry.png) -->
+ ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/invalid%20item%20id%20entry.png) 
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Here is the link to my Portfolio page
