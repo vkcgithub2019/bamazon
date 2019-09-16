@@ -78,7 +78,7 @@ function purchaseOrder(ID, amtNeeded){
     connection.query("SELECT * FROM products WHERE item_id = " + ID, function(err,res){
 
       if (err){console.log(err)};
-       console.log(amtNeeded);
+       /* console.log(amtNeeded); */
       if(amtNeeded <= res[0].stock_quantity){
 
           var totalCost = res[0].price * amtNeeded;
@@ -87,16 +87,18 @@ function purchaseOrder(ID, amtNeeded){
           console.log("Your total for " + amtNeeded + " " + res[0].product_name + " is $" + totalCost + " Thank you!" + '\n');
           var newQuantity = res[0].stock_quantity - amtNeeded;
           connection.query("UPDATE products SET stock_quantity = "+ newQuantity + " WHERE item_id = " + ID);
-          
+          continuePrompt()
 
       }
       
 
       else{
         console.log("We are sorry, we do not have enough quantity of " + res[0].product_name + " to complete your order");
+        continuePrompt()
       };
-        displayProducts();
 
+        /* displayProducts();
+ */
       });
       /* console.log("Do you want to make more purchase?") */
 
@@ -104,3 +106,30 @@ function purchaseOrder(ID, amtNeeded){
 };
 
 
+function continuePrompt(){
+  inquirer.prompt([{
+      name: "continuation",
+      type: "input",
+      message: "Do you want to continue shopping?",
+      /* filter:Number, */
+      validate: function(value) {
+          if (value === "yes"|| value === "no"){
+            return true;
+          }else{
+            console.log ('\nPlease enter yes or no');
+            return false;
+          }
+            
+      }
+      
+  }]).then(function(res){
+          if (res.continuation === "yes") {
+              purchasePrompt()
+              
+            }
+            else {
+              console.log ("Thank you for shopping, Good Bye!");
+              connection.end()
+              
+            }
+  })}
