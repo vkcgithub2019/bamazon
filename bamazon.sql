@@ -16,7 +16,7 @@ CREATE TABLE products (
 /* create a column called department_name allowing a maximum character of 50 and cannot be null*/
     deparment_name VARCHAR(50) NOT NULL,
 /* create a column called price which allows currency input/decimal with maximum digits of 10 and 2 places of decimal and cannot be null*/
-    price DECIMAL(10,2) NOT NULL,
+    price DECIMAL(15,5) NOT NULL,
 /* create a column called stock_quantity with a maximum integer of 200 and cannot be null */
     stock_quantity INT(200) NOT NULL,
 /* create a primary key call item_id to identify the row of product in the id table*/

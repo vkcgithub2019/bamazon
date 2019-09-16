@@ -39,8 +39,7 @@ function purchasePrompt(){
         name: "ID",
         type: "input",
         message: "Please enter the item_id of product to purchase.",
-        /* filter:Number, */
-        validate: function(value) {
+            validate: function(value) {
             if ((!isNaN(value)) && (value >=1) && (value<=10)){
               return true;
             }else{
@@ -78,7 +77,7 @@ function purchaseOrder(ID, amtNeeded){
     connection.query("SELECT * FROM products WHERE item_id = " + ID, function(err,res){
 
       if (err){console.log(err)};
-       /* console.log(amtNeeded); */
+       
       if(amtNeeded <= res[0].stock_quantity){
 
           var totalCost = res[0].price * amtNeeded;
@@ -87,6 +86,7 @@ function purchaseOrder(ID, amtNeeded){
           console.log("Your total for " + amtNeeded + " " + res[0].product_name + " is $" + totalCost + " Thank you!" + '\n');
           var newQuantity = res[0].stock_quantity - amtNeeded;
           connection.query("UPDATE products SET stock_quantity = "+ newQuantity + " WHERE item_id = " + ID);
+          
           continuePrompt()
 
       }
@@ -97,12 +97,10 @@ function purchaseOrder(ID, amtNeeded){
         continuePrompt()
       };
 
-        /* displayProducts();
- */
+         /* displayProducts(); */
+ 
       });
-      /* console.log("Do you want to make more purchase?") */
-
-      
+            
 };
 
 
@@ -111,7 +109,7 @@ function continuePrompt(){
       name: "continuation",
       type: "input",
       message: "Do you want to continue shopping?",
-      /* filter:Number, */
+      
       validate: function(value) {
           if (value === "yes"|| value === "no"){
             return true;
@@ -128,7 +126,7 @@ function continuePrompt(){
               
             }
             else {
-              console.log ("Thank you for shopping, Good Bye!");
+              console.log ("If you have made a purchase, please proceed to checkout. Thank you for shopping, Good Bye!");
               connection.end()
               
             }
