@@ -33,7 +33,13 @@ SCREENSHOTS OF THE OPERATION
  ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/insufficient%20quantity%20screenshot.png)
 
 5.  Invalid item_id
- ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/invalid%20item%20id%20entry.png) 
+ ![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/invalid%20item%20id%20entry.png)
+
+6.  Continue shopping
+![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/continue%20shopping.png) 
+
+7.  End shopping
+![images](https://github.com/vkcgithub2019/bamazon/blob/master/images/end%20shopping.png)
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
