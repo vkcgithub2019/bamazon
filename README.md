@@ -43,7 +43,3 @@ SCREENSHOTS OF THE OPERATION
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Here is the link to my Portfolio page
-
-https://vkcgithub2019.github.io/Responsive-Portfolio/
-https://github.com/vkcgithub2019/Responsive-Portfolio
